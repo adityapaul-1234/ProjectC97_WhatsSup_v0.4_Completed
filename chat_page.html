@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Chat Page</title>
+        <link rel="stylesheet" type="text/css" href="chat_page.css">
+        
+
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+        
+        
+
+    <script src="chat_page.js"></script>
+    </head>
+
+    <body>
+        <button id="logout" onclick="logout()"> Logout <sub><img src="icons8-logout-rounded-left-30.png"></sub></button>
+        
+        <button id="back" onclick="back()">Back<sub><img src="icons8-back-30.png"></sub></button>
+        <center>
+        <h1>WHAT'S SUP <sup><img src="icons8-chatting-64.png"></sup></h1>
+
+        <div id="output">
+            <div id="Message_Area">
+            </div>
+            <div id="Send_Area">
+                <input type="text" id="Msg" placeholder="Enter your message here">
+                <button id="send" onclick="send()"><img src="icons8-email-send-24.png"></button>
+            </div>
+        </div>
+        </center>
+
+        <script src="chat_page.js"></script>
+    </body>
+</html>
